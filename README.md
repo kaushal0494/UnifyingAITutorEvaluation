@@ -4,19 +4,20 @@
 ---
 
 ## Overview
-This repository serves as the official implementation hub for the paper:
+This repository serves as the official implementation hub for the paper (To be appear in NAACL 2025):
 
 > *[Unifying AI Tutor Evaluation: An Evaluation Taxonomy for Pedagogical Ability Assessment of LLM-Powered AI Tutors.](https://arxiv.org/pdf/2412.09416)*
 
-Our work presents a comprehensive evaluation taxonomy aimed at assessing the pedagogical abilities of large language model (LLM)-powered AI tutors. This repository will provide the community with the tools, data, and methodologies necessary to benchmark AI tutors effectively.
+Our work presents a comprehensive evaluation taxonomy aimed at assessing the pedagogical abilities of large language model (LLM)-powered AI tutors. This repository will provide the community with the tools, data, and methodologies necessary to benchmark AI tutors effectively. 
+
 
 ---
 
 ## MRBench Dataset
 
 ### Version Update
-- **MRBench_V1:** The original dataset with 192 conversations as presented in the paper.  
-- **MRBench_V2:** An updated version adding 8 additional conversations, bringing the total to 200 examples.
+- **MRBench_V1:** The original dataset with 192 dialogues as deatiled in the paper.  
+- **MRBench_V2:** An updated version with additional 8 dialogues, bringing the total to 200 examples.
 
 ### File Structure
 
@@ -186,11 +187,6 @@ Our work presents a comprehensive evaluation taxonomy aimed at assessing the ped
     }
   }
 ```
----
-
-### Coming Soon:
-1. **Codebase**: Scripts and details for LLM sampling, DAMR score calculation, and other related implementations.  
-2. **Documentation**: Comprehensive guides and resources to help replicate the experiments effectively.
 
 ---
 
@@ -201,6 +197,7 @@ If you find our work useful, please cite us:
 @article{maurya2024unifying,
   title={Unifying AI Tutor Evaluation: An Evaluation Taxonomy for Pedagogical Ability Assessment of LLM-Powered AI Tutors},
   author={Maurya, Kaushal Kumar and Srivatsa, KV and Petukhova, Kseniia and Kochmar, Ekaterina},
+  conference
   journal={arXiv preprint arXiv:2412.09416},
   year={2024}
 }
