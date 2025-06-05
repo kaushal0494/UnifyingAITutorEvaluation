@@ -189,6 +189,14 @@ Our work presents a comprehensive evaluation taxonomy aimed at assessing the ped
 ```
 
 ---
+## Human Annotation Guideline Resources
+
+To support reproducibility, we are open-sourcing all resources related to human annotation guidelines. These include both the training and testing documents (created via Google Forms), as well as detailed guideline documents for each evaluation dimension. The guideline documents provide definitions, illustrative examples for each dimension, and a comprehensive FAQ to ensure consistent and accurate annotations.
+
+You can find all these materials in the `Human_Annotation_Guidelines_Resources` folder.
+
+
+---
 
 ## BibTeX Citation
 If you find our work useful, please cite us:
